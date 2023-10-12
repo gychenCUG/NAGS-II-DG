@@ -435,13 +435,13 @@ if __name__ == '__main__':
     num_sources = 10
 
     # The number of times the ratio was generated
-    num_samples = 20
+    num_samples = 100000
 
     # Number of heads reserved
-    num_keep = 10
+    num_keep = 100
 
     # The number of times to sample under the proportion: licht_N
-    Cepoch = 2
+    Cepoch = 200
 
     # The number of grains subsampled
     num_grains = 1000

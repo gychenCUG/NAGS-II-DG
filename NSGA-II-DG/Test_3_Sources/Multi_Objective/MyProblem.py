@@ -243,7 +243,7 @@ targetcad = transfer_toCAD(sink_data, x)
 num_grains = 1000
 
 # The number of times to sample under the proportion: licht_N
-Cepoch = 2
+Cepoch = 200
 
 
 

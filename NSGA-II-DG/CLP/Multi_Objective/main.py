@@ -18,8 +18,8 @@ if __name__ == '__main__':
     algorithm = moea_NSGA2_templet(
         problem,
         ea.Population(Encoding='RI',Field=Field,NIND=100),
-        MAXGEN=5, # Maximum generations
-        logTras=1, # Set how many generations to record logs. If set to 0, it means no logs will be recorded.
+        MAXGEN=200, # Maximum generations
+        logTras=10, # Set how many generations to record logs. If set to 0, it means no logs will be recorded.
         verbose=True, # Set whether to print out log information
         drawing=1 # Set the drawing mode (0: no drawing; 1: draw the result graph; 2: draw the target space process animation; 3: draw the decision space process animation)
     )
